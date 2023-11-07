@@ -26,14 +26,14 @@ To see more exact documentation, run the program with -h for help.
 
 ### Bee movie script
 #### Encoding
-`Steganography.py 'Test Input Images\bee_movie.jpg' -i 'Test Input Data\input_text.txt' encoded_script.png`
+`./Steganography.py 'Test Input Images\bee_movie.jpg' -i 'Test Input Data\input_text.txt' encoded_script.png`
 
 #### Decoding
-`Steganography.py encoded_script.png output_script.txt`
+`./Steganography.py encoded_script.png output_script.txt`
 
 
 ### Decoding Included File:
 This decodes the included file using the password jazz
 
-`Steganography.py included_test.png -p jazz output_video.mp4`
+`./Steganography.py included_test.png -p jazz output_video.mp4`
 
