@@ -7,6 +7,10 @@ Passwords use the python random library and a seed set by the hash of the passwo
 It is possible that different versions/platforms of python might have different implementations of seeded random numbers which would break passwords.
 
 
+Using the password option causes the program to take more time and memory to encode and decode because instead of streaming the entire process
+the random order of pixels needs to be determined ahead of time.
+
+
 The program acts like a normal command line application and takes an input image and can either
  - Output the encoded data to an output file
  - Take an input file and write the encoded image to an output file
